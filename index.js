@@ -7,7 +7,7 @@ setInterval(function(){
  
   
   // Set the target date for the countdown
-  const targetDate = new Date('2024-03-25T23:59:59');
+  const targetDate = new Date('2024-03-29T23:59:59');
   const currentDate = new Date();
   const remainingTime = targetDate - currentDate;
   // Calculate the remaining days, hours, minutes, and seconds

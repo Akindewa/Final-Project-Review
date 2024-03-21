@@ -118,6 +118,7 @@ body{
     body{
         background-image: url(bg-stars.svg);
         background: hsl(234, 17%, 12%);
+        width: 100%;
     }
     .number{
         padding: 1rem;
@@ -125,16 +126,18 @@ body{
     }
 
     .first-container{
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
-
+        text-align: center;
+        margin-top: 10rem;
+        color: hsl(0, 0%, 100%);
+        font-family: "Red Hat Text", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+        font-size: small;
     }
 
     .second-container{
-        padding: 1rem;
-        font-size: 1.5rem;
+      position: relative;
+        font-size:small;
     }
 
     .underneath-text{
@@ -143,6 +146,20 @@ body{
     }
     .bg-container  {
         width: 100%;
+    }
+
+    .number{
+        position: relative;
+        background: linear-gradient(to top, hsl(235, 16%, 14%) 0 50%, hsl(234, 17%, 12%) 50% 100%);
+        padding: 0.5rem;
+        font-size: small;
+        font-family: "Red Hat Text", sans-serif;
+        color: hsl(345, 95%, 68%);
+        box-shadow: 0px 8px 2px 0px black;
+        border-radius: 8px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
     }
     
 }
